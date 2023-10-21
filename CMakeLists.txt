@@ -1,0 +1,25 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+    "Classes_and_Functions/Image/Image.h"
+    "Classes_and_Functions/Image/Image.cpp"
+    "Classes_and_Functions/Format_Command/Format_command.h"
+    "Classes_and_Functions/Format_Command/Format_command.cpp"
+    Filters/Crop/Crop.h
+    Filters/Crop/Crop.cpp
+    Filters/Grayscale/Grayscale.h
+    Filters/Grayscale/Grayscale.cpp
+    Filters/Sharpening/Sharpening.h
+    Filters/Sharpening/Sharpening.cpp
+    Filters/Negative/Negative.cpp
+    Filters/Negative/Negative.h
+    "Filters/Edge_Detection/Edge_Detection.cpp"
+    "Filters/Edge_Detection/Edge_Detection.h"
+    "Filters/Gaussian_Blur/Gaussian_Blur.cpp"
+    "Filters/Gaussian_Blur/Gaussian_Blur.h"
+    "Classes_and_Functions/Color/Color.cpp"
+    "Classes_and_Functions/Color/Color.h"
+    Filters/Pixelize/Pixelize.h
+    Filters/Pixelize/Pixelize.cpp
+    "Classes_and_Functions/Apply_Matrix_To_Filter/Apply_Matrix_To_Filter.cpp"
+    "Classes_and_Functions/Apply_Matrix_To_Filter/Apply_Matrix_To_Filter.h")
